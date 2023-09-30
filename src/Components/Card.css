@@ -1,0 +1,38 @@
+.card{
+  border: 2px solid gray;
+  margin: 5px;
+  width: 260px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.card img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card h3{
+  margin-top: 10px;
+}
+.card p{
+  color: gray;
+  margin: 10px 0;
+}
+.card h5{
+  margin: 8px 0;
+  
+}
+.card button{
+  width: 100%;
+  margin-top: 15px;
+  padding: 7px;
+  background-color: skyblue;
+  border-radius: 6px;
+  border: transparent;
+}
+@media (min-width: 680px), screen and (mac-width: 1280px){
+  
+  .card{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    
+  }
+}

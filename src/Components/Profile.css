@@ -1,0 +1,43 @@
+.name{
+  text-align: center;
+}
+.personal-information{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 29px 0;
+  padding: 20px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+.btn-break{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: skyblue;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.btn-break button{
+  padding: 5px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: white;
+  margin: 3px;
+}
+.btn-break button:hover{
+  background-color: black;
+  color: white;
+}
+.exercise-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: skyblue;
+  border-radius: 10px;
+  margin-top: 25px;
+}
